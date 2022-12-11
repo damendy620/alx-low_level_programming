@@ -1,23 +1,27 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: Always 0 Success
+ *Return: Always 0 success
  */
 int main(void)
 {
-	char lowcharact;
-	char upcharact;
+	char lower_ch;
+	char upper_ch;
 
-	for (lowcharact = 'a'; lowcharact <= 'z'; lowcharact++)
+	lower_ch = 'a';
+
+	while (lower_ch <= 'z')
 	{
-		putchar(lowcharact);
+		putchar(lower_ch);
+		lower_ch++;
 	}
-	for (upcharact = 'A'; upcharact <= 'Z'; upcharact++)
+	for (upper_ch = 'A'; upper_ch <= 'Z'; upper_ch++)
 	{
-		putchar(upcharact);
+		putchar(upper_ch);
 	}
 	putchar('\n');
+
 	return (0);
 }
-
