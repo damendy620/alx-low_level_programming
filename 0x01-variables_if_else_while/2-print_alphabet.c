@@ -7,7 +7,7 @@
 int main(void)
 {
 	char loweralpha;
-	
+
 	for (loweralpha = 'a'; loweralpha <= 'z'; loweralpha++)
 	{
 		putchar(loweralpha);
