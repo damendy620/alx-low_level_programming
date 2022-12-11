@@ -2,20 +2,20 @@
 /**
  * main - entry point
  *
- * Return: Always(0) Success
+ * Return: Always 0 Success
  */
 int main(void)
 {
-	char lowercharac;
-	char uppercharac;
+	char lowcharact;
+	char upcharact;
 
-	for (lowercharac = 'a'; lowercharac <= 'z'; lowercharac++)
+	for (lowcharact = 'a'; lowcharact <= 'z'; lowcharact++)
 	{
-		putchar(lowercharac);
+		putchar(lowcharact);
 	}
-	for (uppercharac = 'A'; uppercharac <= 'Z'; uppercharac++)
+	for (upcharact = 'A'; upcharact <= 'Z'; upcharact++)
 	{
-		putchar(uppercharac);
+		putchar(upcharact);
 	}
 	putchar('\n');
 	return (0);
